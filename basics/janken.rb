@@ -9,5 +9,4 @@ num = janken.length
 # 配列の中身を出力
 p janken
 # ランダムに選んだ配列の要素を出力
-rand_pick = rand(num)
-p janken[rand_pick]
+p janken[rand(num)]
