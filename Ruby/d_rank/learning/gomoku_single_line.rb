@@ -9,6 +9,8 @@ else
 end
 
 
+
+
 # # 模範回答
 # array = %w[O X]
 
