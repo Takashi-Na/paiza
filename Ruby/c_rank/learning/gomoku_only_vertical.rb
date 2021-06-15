@@ -33,9 +33,11 @@ end
 # 結果表示
 puts result
 
-# 模範回答
-board = []
-result = 'D'
+
+
+# # 模範回答
+# board = []
+# result = 'D'
 
 # # 盤面の初期化
 # (1..5).each { board.push(gets.chomp.split('')) }
