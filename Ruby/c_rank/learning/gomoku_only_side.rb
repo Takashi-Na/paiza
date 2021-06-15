@@ -21,6 +21,5 @@ result = "D"
     
   end
 end
-
 # 結果
 puts result
