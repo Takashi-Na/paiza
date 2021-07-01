@@ -19,12 +19,11 @@ def result(d1, d2, p1, p2)
   end
 end
 
+
 # 親カード
 a,b = gets.split(" ").map(&:to_i)
-
 # 参加人数
 len = gets.to_i
-
 # 判定
 len.times do
   n, m = player_card
