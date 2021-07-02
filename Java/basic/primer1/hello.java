@@ -1,6 +1,6 @@
 package Java.basic.primer1;
 
-public class hello {
+public class Hello {
   public static void main(String[] args) {
     System.out.println("hello paizaラーニング");
   }
