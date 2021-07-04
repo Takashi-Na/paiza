@@ -1,4 +1,4 @@
-package Java.basic.primer1;
+package java.basic.primer1;
 
 public class DispHtml {
   public static void main(String[] args) {

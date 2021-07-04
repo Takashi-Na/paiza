@@ -1,4 +1,4 @@
-package Java.basic.primer2;
+package java.basic.primer2;
 
 public class If {
   public static void main(String[] args) {

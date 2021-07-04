@@ -1,4 +1,4 @@
-package Java.basic.primer3;
+package java.basic.primer3;
 
 public class Countdown {
   public static void main(String[] args) {

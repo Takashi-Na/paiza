@@ -2,12 +2,14 @@ package java.basic.primer3;
 
 import java.util.Scanner;
 
-public class Sentence {
+public class WhileInputTimes {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    String line = sc.next();
+    int num = sc.nextInt();
     sc.close();
 
-    System.out.println(line);
+    for (int i = 0; i < num; i++) {
+      System.out.println("スライムが現れた");
+    }
   }
 }
