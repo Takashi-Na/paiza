@@ -1,0 +1,34 @@
+package java.c_rank;
+
+import java.util.Scanner;
+
+public class SpecialBinomial {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+
+    int x = sc.nextInt();
+    int d_1 = sc.nextInt();
+    int d_2 = sc.nextInt();
+    int k = sc.nextInt();
+
+    int[] a = new int[k + 1];
+
+    a[1] = x;
+    for (int i = 2; i <= k; i++) {
+      if (i % 2 == 0) {
+        a[i] = a[i - 1] + d_2;
+      } else {
+        a[i] = a[i - 1] + d_1;
+      }
+    }
+
+    // // デバック
+    // for (int num : a) {
+    //   System.out.println(num);
+    // }
+
+    System.out.println(a[k]);
+
+    sc.close();
+  }
+}
